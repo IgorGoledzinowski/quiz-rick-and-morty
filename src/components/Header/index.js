@@ -1,6 +1,7 @@
 import styled from 'styled-components';
 import logo from '../../logo.svg';
 import Navbar from './Navbar/index';
+import { Link } from '@reach/router';
 
 const Logo = styled.img`
     height: 50px;
@@ -22,10 +23,10 @@ const Header = () => (
     <>
         <Navbar>
         <Logo src={logo} alt="" />
-        <List>EPISODES</List>
-        <List>CHARACTERS</List>
-        <List>LOCATIONS</List>
-        <List>QUIZ</List>
+        <Link to="/">EPISODES</Link>
+        <Link to="/characters">CHARACTERS</Link>
+        <Link to="/locations">LOCATIONS</Link>
+        <Link to="/quiz">QUIZ</Link>
         </Navbar>
     </>
 )

@@ -24,7 +24,7 @@ const Episodes = () => {
                     <Card
                         name={el.name}
                         title={el.air_date}
-                        image="//placekitten.com/200/200"
+                        image="//static01.nyt.com/images/2013/12/02/arts/11rickandmorty-item/MOTY-superJumbo.jpg?quality=90&auto=webp"
                         tag="Season 1"
                     />
                     </Link>

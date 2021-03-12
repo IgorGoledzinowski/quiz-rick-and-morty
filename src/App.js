@@ -2,7 +2,7 @@ import { Router } from "@reach/router";
 import Episodes from './pages/episodes';
 import Episode from './pages/episode';
 import GlobalStyle from './globalStyles';
-function App() {
+const App = () => {
   return (
     <>
       <GlobalStyle />
